@@ -93,6 +93,17 @@
   font-family: sans-serif;
 }
 
+.error {
+  color: #ff6b6b;
+  background-color: rgba(255, 107, 107, 0.1);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  border-left: 3px solid #ff6b6b;
+  text-align: left;
+}
+
 .link {
   color: #ff4f81;
   cursor: pointer;

@@ -1,0 +1,46 @@
+.dashboard {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  background-color: #1db954;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logoutButton {
+  background-color: #1ed760;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.logoutButton:hover {
+  background-color: #1aa34a;
+}
+
+.mainContent {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.mainContent h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.mainContent p {
+  color: #666;
+  font-size: 1.1rem;
+}
